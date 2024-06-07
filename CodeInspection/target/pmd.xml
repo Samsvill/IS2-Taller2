@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.21.0" timestamp="2024-06-06T22:21:14.965">
+<error filename="C:\Users\Sung\Documents\IS2_PAOI_24\taller 2\CodeInspection\src\main\java\labcodeinspection\EmailApp.java" msg="PMDException: Error while parsing C:\Users\Sung\Documents\IS2_PAOI_24\taller 2\CodeInspection\src\main\java\labcodeinspection\EmailApp.java">
+<![CDATA[net.sourceforge.pmd.PMDException: Error while parsing C:\Users\Sung\Documents\IS2_PAOI_24\taller 2\CodeInspection\src\main\java\labcodeinspection\EmailApp.java
+	at net.sourceforge.pmd.SourceCodeProcessor.processSourceCodeWithoutCache(SourceCodeProcessor.java:110)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSourceCode(SourceCodeProcessor.java:89)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSourceCode(SourceCodeProcessor.java:51)
+	at net.sourceforge.pmd.processor.PmdRunnable.call(PmdRunnable.java:78)
+	at net.sourceforge.pmd.processor.PmdRunnable.call(PmdRunnable.java:24)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: net.sourceforge.pmd.lang.java.ast.ParseException: Encountered " ";" "; "" at line 5, column 40.
+Was expecting one of:
+    "class" ...
+    "interface" ...
+    "@" ...
+    "@" ...
+    "@" ...
+    "@" ...
+    "@" ...
+    "@" ...
+    "@" ...
+    
+	at net.sourceforge.pmd.lang.java.ast.JavaParser.generateParseException(JavaParser.java:12229)
+	at net.sourceforge.pmd.lang.java.ast.JavaParser.jj_consume_token(JavaParser.java:12113)
+	at net.sourceforge.pmd.lang.java.ast.JavaParser.TypeDeclaration(JavaParser.java:631)
+	at net.sourceforge.pmd.lang.java.ast.JavaParser.CompilationUnit(JavaParser.java:352)
+	at net.sourceforge.pmd.lang.java.AbstractJavaParser.parse(AbstractJavaParser.java:62)
+	at net.sourceforge.pmd.SourceCodeProcessor.parse(SourceCodeProcessor.java:121)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSource(SourceCodeProcessor.java:185)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSourceCodeWithoutCache(SourceCodeProcessor.java:107)
+	... 10 more
+]]>
+</error>
+</pmd>
